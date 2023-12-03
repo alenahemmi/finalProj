@@ -1,0 +1,50 @@
+section {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.mainMidPic {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.mainsTitle {
+    background-color: deeppink;
+}
+
+.mawTitle{
+    background-color: blue;
+    color: white;
+}
+.mawCharities{
+    color: blue;
+}
+
+.wwpTitle{
+    background-color: rgb(0, 56, 10);
+    color: white;
+}
+.wwpCharities{
+    color: rgb(0, 56, 10);
+}
+
+.mcspTitle{
+    background-color: red;
+    color: white;
+}
+.mcspCharities{
+    color:red;
+}
+
+body {
+    background-color: pink;
+    font-family: Arial;
+}
+.homeH2{
+    color: deeppink;
+}
+hr{
+    border: 2px solid darkpurple;
+}

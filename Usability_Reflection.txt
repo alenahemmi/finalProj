@@ -1,0 +1,6 @@
+The usability of my website, I would say, is up to par, if not above. 
+I find the biggest worry when it comes to designing a "usable" website
+to be color contrasts. In order to combat this, I used a light background with 
+dark colors for text. I stuck to basic black text for most elements, especially
+the interactive elements to make sure they were easy to read.
+I also used a sans-serif font, as I find that easier to read, especially with color.

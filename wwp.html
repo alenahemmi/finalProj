@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Helphub - WWP</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <h1 class="wwpTitle">Wounded Warrior Project</h1>
+    
+<!--Navigation Bar-->
+    <nav>
+        /\ <a href="index.html">Home</a> |
+        = <a href="charities.html">Charities A-Z</a>
+    </nav>
+    
+    <hr>
+
+    <section>
+        <img id="image" src="wwp.jpg" alt="Group involved with WWP" width="300" height="300">
+    </section>
+
+    <section>
+        <h2>Mission statement</h2>
+        <p>"Honor and empower Wounded Warriors who incurred a physical or mental injury, 
+            illnesses, or wound, co-incident to your military service on or after September 11, 2001."</p>
+    </section>
+
+    <section>
+        <h2><img src="locationmarker.png" width="20" height="20">International (+ Pittsburgh)</h2>
+        <p align="right"><button onclick="visibleFunction()">Volunteer Now</button></p>
+    </section>
+<!--application-->
+    <form id="applicationText" style="visibility: hidden">
+        <br>
+
+        <div>
+        <input type="checkbox" id="maw" name="organization" value="Make a Wish">
+        <label for="maw">Make a Wish</label><br>
+
+        <input type="checkbox" id="mcsp" name="organization" value="Military Community Support Project">
+        <label for="mcsp">Military Community Support Project</label><br>
+
+        <input type="checkbox" id="wwp" name="organization" value="Wounded Warrior Project">
+        <label for="wwp">Wounded Warrior Project</label>
+        </div>
+        <br>
+
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="First Last" required>
+        </div>
+        <br>
+
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="youremail@email.com" required>
+        </div>
+        <br>
+
+        <div>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="(000)-000-0000" required>
+        </div>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="charity_profitle.js"></script>
+</body>
+</html>
